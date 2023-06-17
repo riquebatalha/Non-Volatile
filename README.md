@@ -16,8 +16,6 @@ Além disso, o TPM registra medidas de segurança do processo de inicialização
 
 O TPM também pode ser utilizado para realizar operações criptográficas, como a criptografia e descriptografia de dados, assinatura digital e autenticação. Ele oferece uma camada adicional de segurança, pois as chaves e operações criptográficas são realizadas dentro do chip TPM, protegendo-as contra ataques externos.
 
-Em resumo, o TPM é um componente de segurança de hardware que desempenha um papel fundamental na proteção de dados, garantindo a integridade da plataforma e fortalecendo a segurança de computadores e dispositivos eletrônicos.
-
 Quando o TPM é utilizado para autenticação, ele pode ajudar a prevenir acesso não autorizado à memória não volátil, garantindo que apenas usuários ou dispositivos confiáveis tenham acesso aos dados armazenados. Além disso, o TPM também pode fornecer chaves de autenticação para verificar a identidade de um sistema ou aplicativo antes de permitir o acesso à memória não volátil.
 
 Se houver falhas de segurança no processo de autenticação ou autorização implementado pelo TPM, isso pode abrir brechas para que um invasor acesse indevidamente a memória não volátil ou realize ações não autorizadas, como modificar ou excluir dados.
