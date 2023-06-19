@@ -29,7 +29,6 @@ Essa falha de integridade dos dados pode ter implicações significativas, espec
 
 Portanto, é crucial que o sistema operacional adote mecanismos robustos de verificação de integridade, como hashes ou algoritmos de verificação, para garantir que os dados armazenados nas memórias não voláteis permaneçam íntegros e confiáveis ao longo do tempo. <br>
 
-<br>
 ## Erro de exclusão de dados
 No contexto das memórias não voláteis, pode ocorrer um erro de exclusão de dados quando o sistema operacional falha em remover corretamente as informações armazenadas, resultando na persistência não intencional desses dados.
 
