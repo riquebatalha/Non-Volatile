@@ -59,7 +59,8 @@ Portanto, é fundamental que o sistema operacional implemente estratégias efica
 
 ## REFERÊNCIAS <br>
 Mittal, S.; Vetter, J.S. "A Survey of Software Techniques for Using Non-Volatile Memories for Storage and Main Memory Systems”, IEEE Transactions on Parallel and Distributed Systems, vol. 27.5, 2015, pp. 1537-1550. <br>
-Duan, Q.; Pan, L. Error Detection and Correction Techniques for Non-Volatile Memories: A Survey. IEEE Access, v. 7, p. 30957-30973, 2019.<br>
-Santos, F., Almeida, M., & Madeira, H. (2018). File Deletion Errors in Non-Volatile Memory. Proceedings of the 23rd ACM Symposium on Operating Systems Principles (SOSP '18), 139–154. <br>
-Luo, X., Du, X., & Wang, C. (2017). Data Integrity Issues in Non-Volatile Memories: Challenges, Solutions, and Future Trends. IEEE Access, 5, 22419-22435. <br>
-Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). Fundamentos de Sistemas Operacionais. 10ª edição. Editora LTC. <br>
+Dowd, M., McDonald, J., & Schuh, J. (2007). The Art of Software Security Assessment: Identifying and Preventing Software Vulnerabilities. 1ª edição. Sebastopol, CA: O'Reilly Media. <br>
+Bertino, E., & Islam, N. (2005). Database Security and Integrity: Challenges and Solutions. 1ª edição. Hershey, PA: IGI Global. <br>
+Ferrari, E. (2017). Backup & Recovery: Inexpensive Backup Solutions for Open Systems. 1ª edição. Sebastopol, CA: O'Reilly Media. <br>
+Tanenbaum, A. S., & Bos, H. (2014). Modern Operating Systems. 4ª edição. Boston, MA: Pearson Education. <br>
+
