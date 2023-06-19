@@ -62,4 +62,5 @@ Mittal, S.; Vetter, J.S. "A Survey of Software Techniques for Using Non-Volatile
 Duan, Q.; Pan, L. Error Detection and Correction Techniques for Non-Volatile Memories: A Survey. IEEE Access, v. 7, p. 30957-30973, 2019.<br>
 Santos, F., Almeida, M., & Madeira, H. (2018). File Deletion Errors in Non-Volatile Memory. Proceedings of the 23rd ACM Symposium on Operating Systems Principles (SOSP '18), 139–154. <br>
 Luo, X., Du, X., & Wang, C. (2017). Data Integrity Issues in Non-Volatile Memories: Challenges, Solutions, and Future Trends. IEEE Access, 5, 22419-22435. <br>
+Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). Fundamentos de Sistemas Operacionais. 10ª edição. Editora LTC. <br>
 https://learn.microsoft.com/en-us/windows/security/information-protection/tpm/trusted-platform-module-overview
