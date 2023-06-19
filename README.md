@@ -15,19 +15,6 @@ Da mesma forma, um erro de leitura pode ocorrer quando o sistema operacional ten
 
 Em ambos os casos, erros de gravação ou leitura podem resultar em dados corrompidos, incompletos ou ilegíveis, afetando a confiabilidade e integridade dos dados armazenados nas memórias não voláteis.
 
-### Acesso não autorizado
-Suponha que um usuário tenha um dispositivo de armazenamento USB que utiliza memória não volátil para armazenar seus arquivos pessoais. Esse dispositivo está protegido por uma senha para evitar acesso não autorizado.
-
-Um invasor mal-intencionado obtém acesso físico ao dispositivo USB enquanto o usuário está ausente e deseja acessar os arquivos armazenados nele. O invasor tenta várias abordagens para contornar a senha de proteção.
-
-Primeiro, o invasor tenta força bruta, onde ele utiliza um programa automatizado para tentar várias combinações de senhas até encontrar a correta. Se a senha escolhida pelo usuário for fraca ou previsível, o invasor pode ter sucesso nessa tentativa.
-
-Outra abordagem que o invasor pode tentar é a exploração de uma vulnerabilidade no sistema operacional que lida com a proteção de senhas ou criptografia da memória não volátil. Se o sistema operacional tiver uma falha de segurança conhecida, o invasor pode explorá-la para contornar as medidas de proteção e acessar os dados armazenados na memória não volátil.
-
-Além disso, o invasor também pode tentar utilizar técnicas de engenharia social para obter informações da senha do usuário. Isso pode ser feito através de phishing, onde o invasor envia mensagens falsas ou cria páginas de login falsas para enganar o usuário e obter sua senha.
-
-Se o invasor conseguir contornar a proteção e acessar a memória não volátil do dispositivo, ele pode ler, copiar, modificar ou excluir os arquivos pessoais do usuário sem sua autorização.
-
 ### Falha de integridade de dados
 
 Essa falha pode surgir em situações em que o sistema operacional não consegue verificar adequadamente a integridade dos dados armazenados nas memórias não voláteis, levando a erros ou corrupção silenciosa dos dados. Essa falta de verificação pode ocorrer devido a deficiências no sistema operacional, em mecanismos de verificação de integridade ou em falhas de processo.
@@ -37,6 +24,17 @@ Por exemplo, suponha que um sistema operacional esteja gravando registros de tra
 Essa falha de integridade dos dados pode ser especialmente problemática em ambientes sensíveis, como sistemas de gestão de banco de dados, registros médicos ou transações financeiras, onde a precisão e a confiabilidade dos dados são fundamentais para a tomada de decisões adequadas e a conformidade com regulamentos.
 
 Portanto, é crucial que o sistema operacional implemente mecanismos robustos de verificação de integridade, como hashes ou algoritmos de verificação, para garantir que os dados armazenados nas memórias não voláteis permaneçam íntegros e confiáveis ao longo do tempo.
+
+### Erro de exclusão de dados
+Um exemplo de erro de exclusão de dados em memórias não voláteis ocorre quando o sistema operacional falha ao excluir corretamente os dados armazenados, resultando na persistência não intencional dessas informações.
+
+Essa falha pode ocorrer devido a deficiências no sistema operacional, problemas de implementação de algoritmos de exclusão de dados ou falhas no processo de exclusão. Como resultado, os dados que deveriam ter sido removidos permanecem acessíveis nas memórias não voláteis, mesmo após o procedimento de exclusão ser concluído.
+
+Por exemplo, suponha que um usuário deseje excluir um arquivo confidencial contendo informações pessoais de um dispositivo de armazenamento de estado sólido (SSD). O sistema operacional recebe a solicitação de exclusão e executa o processo correspondente. No entanto, devido a uma falha no algoritmo de exclusão utilizado ou em sua implementação, partes ou até mesmo todo o conteúdo do arquivo podem permanecer fisicamente armazenados no SSD, mesmo que o sistema operacional indique que o arquivo foi excluído com sucesso.
+
+Essa falha de exclusão de dados pode ser problemática, especialmente em situações que envolvem a privacidade ou o cumprimento de regulamentações de proteção de dados, como a Lei Geral de Proteção de Dados (LGPD) no Brasil ou o Regulamento Geral de Proteção de Dados (GDPR) na União Europeia. A persistência não intencional dos dados excluídos pode levar a violações de privacidade, vazamento de informações confidenciais ou consequências legais.
+
+Portanto, é essencial que o sistema operacional adote métodos de exclusão de dados eficazes e confiáveis, como a sobrescrita segura dos setores de armazenamento, para garantir que os dados sejam removidos permanentemente das memórias não voláteis, evitando qualquer acesso ou recuperação não autorizados.
 
 ### Falha de Autenticação e Autorização
 
@@ -70,6 +68,18 @@ Expansão de funcionalidades maliciosas: O invasor pode adicionar funcionalidade
 
 A injeção de firmware é uma forma sofisticada de ataque que requer conhecimento técnico avançado e acesso ao dispositivo ou aos sistemas que controlam a memória não volátil. Para mitigar essa ameaça, é importante seguir as práticas recomendadas de segurança, como aplicar atualizações de firmware regularmente, utilizar assinaturas digitais para verificar a autenticidade do firmware e implementar medidas de segurança adicionais, como criptografia e controle de acesso aos mecanismos de atualização de firmware.
 
+### Acesso não autorizado
+Suponha que um usuário tenha um dispositivo de armazenamento USB que utiliza memória não volátil para armazenar seus arquivos pessoais. Esse dispositivo está protegido por uma senha para evitar acesso não autorizado.
+
+Um invasor mal-intencionado obtém acesso físico ao dispositivo USB enquanto o usuário está ausente e deseja acessar os arquivos armazenados nele. O invasor tenta várias abordagens para contornar a senha de proteção.
+
+Primeiro, o invasor tenta força bruta, onde ele utiliza um programa automatizado para tentar várias combinações de senhas até encontrar a correta. Se a senha escolhida pelo usuário for fraca ou previsível, o invasor pode ter sucesso nessa tentativa.
+
+Outra abordagem que o invasor pode tentar é a exploração de uma vulnerabilidade no sistema operacional que lida com a proteção de senhas ou criptografia da memória não volátil. Se o sistema operacional tiver uma falha de segurança conhecida, o invasor pode explorá-la para contornar as medidas de proteção e acessar os dados armazenados na memória não volátil.
+
+Além disso, o invasor também pode tentar utilizar técnicas de engenharia social para obter informações da senha do usuário. Isso pode ser feito através de phishing, onde o invasor envia mensagens falsas ou cria páginas de login falsas para enganar o usuário e obter sua senha.
+
+Se o invasor conseguir contornar a proteção e acessar a memória não volátil do dispositivo, ele pode ler, copiar, modificar ou excluir os arquivos pessoais do usuário sem sua autorização.
 
 
 
