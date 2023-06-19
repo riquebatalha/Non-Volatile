@@ -6,7 +6,7 @@ A memória não-volátil (NVM), também conhecida como memória persistente, é 
 
 ## MODELOS DE VULNERABILIDADES
 
-### Erro de gravação ou leitura
+## Erro de gravação ou leitura
 Em sistemas operacionais que envolvem o uso de memórias não voláteis, podem ocorrer erros de gravação ou leitura, resultando em problemas na persistência ou recuperação dos dados armazenados.
 
 Esses erros podem ter origem em várias causas, como falhas físicas dos dispositivos de armazenamento, corrupção de dados durante o processo de gravação ou leitura, interferências eletromagnéticas ou até mesmo bugs no firmware dos dispositivos.
@@ -28,7 +28,7 @@ Essa falha de integridade dos dados pode ter implicações significativas, espec
 
 Portanto, é crucial que o sistema operacional adote mecanismos robustos de verificação de integridade, como hashes ou algoritmos de verificação, para garantir que os dados armazenados nas memórias não voláteis permaneçam íntegros e confiáveis ao longo do tempo.
 
-### Erro de exclusão de dados
+## Erro de exclusão de dados
 No contexto das memórias não voláteis, pode ocorrer um erro de exclusão de dados quando o sistema operacional falha em remover corretamente as informações armazenadas, resultando na persistência não intencional desses dados.
 
 Essa falha pode ser atribuída a deficiências no sistema operacional, implementação inadequada de algoritmos de exclusão de dados ou falhas no processo de exclusão em si. Como resultado, os dados que deveriam ter sido apagados permanecem acessíveis nas memórias não voláteis, mesmo após o procedimento de exclusão ter sido concluído.
@@ -39,7 +39,7 @@ Esse erro de exclusão de dados pode ser problemático, especialmente em situaç
 
 Portanto, é essencial que o sistema operacional adote métodos eficazes e confiáveis de exclusão de dados, como a sobreposição segura de setores de armazenamento, a fim de garantir a remoção permanente dos dados das memórias não voláteis, evitando qualquer acesso ou recuperação não autorizados.
 
-#### Problemas de Gerenciamento de Espaço
+## Problemas de Gerenciamento de Espaço
 Em uma implementação de um sistema operacional em um dispositivo de armazenamento de estado sólido (SSD), pode ocorrer um problema de gerenciamento de espaço devido a uma alocação ineficiente de recursos.
 
 No cenário em questão, o sistema operacional é responsável pelo gerenciamento do espaço disponível em um SSD para armazenamento de arquivos. Devido a um algoritmo inadequado de alocação de espaço ou à ausência de um mecanismo de reciclagem eficiente, surgem situações de desperdício significativo de espaço.
