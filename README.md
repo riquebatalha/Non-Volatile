@@ -8,6 +8,13 @@ A memória não-volátil (NVM), também conhecida como memória persistente, é 
 ### Vulnerabilidades físicas
 As memórias não voláteis podem ser suscetíveis a danos físicos, como impactos fortes, exposição a temperaturas extremas ou a campos magnéticos intensos. Esses eventos podem levar à perda permanente de dados armazenados.
 
+### Erro de gravação ou leitura
+Por exemplo, suponha que você esteja copiando um arquivo de grande tamanho para uma unidade de estado sólido (SSD) e, no meio do processo, haja uma queda de energia. Após reiniciar o sistema, você pode descobrir que o arquivo está corrompido ou faltando dados, devido ao erro de gravação que ocorreu durante a interrupção do processo de cópia.
+
+Da mesma forma, um erro de leitura pode ocorrer quando o sistema operacional tenta ler dados das memórias não voláteis, mas encontra setores defeituosos ou informações ilegíveis. Isso pode ocorrer devido a falhas físicas ou desgaste natural das células de memória flash em dispositivos de armazenamento como SSDs ou pendrives.
+
+Em ambos os casos, erros de gravação ou leitura podem resultar em dados corrompidos, incompletos ou ilegíveis, afetando a confiabilidade e integridade dos dados armazenados nas memórias não voláteis.
+
 ### Acesso não autorizado
 Suponha que um usuário tenha um dispositivo de armazenamento USB que utiliza memória não volátil para armazenar seus arquivos pessoais. Esse dispositivo está protegido por uma senha para evitar acesso não autorizado.
 
@@ -21,6 +28,15 @@ Além disso, o invasor também pode tentar utilizar técnicas de engenharia soci
 
 Se o invasor conseguir contornar a proteção e acessar a memória não volátil do dispositivo, ele pode ler, copiar, modificar ou excluir os arquivos pessoais do usuário sem sua autorização.
 
+### Falha de integridade de dados
+
+Essa falha pode surgir em situações em que o sistema operacional não consegue verificar adequadamente a integridade dos dados armazenados nas memórias não voláteis, levando a erros ou corrupção silenciosa dos dados. Essa falta de verificação pode ocorrer devido a deficiências no sistema operacional, em mecanismos de verificação de integridade ou em falhas de processo.
+
+Por exemplo, suponha que um sistema operacional esteja gravando registros de transações financeiras em um banco de dados armazenado em memórias não voláteis. Caso ocorra um erro durante o processo de gravação dos dados, como uma interrupção de energia ou uma falha no sistema, pode ocorrer uma falha na integridade dos dados. Isso pode resultar em registros financeiros corrompidos, valores inconsistentes ou informações faltantes.
+
+Essa falha de integridade dos dados pode ser especialmente problemática em ambientes sensíveis, como sistemas de gestão de banco de dados, registros médicos ou transações financeiras, onde a precisão e a confiabilidade dos dados são fundamentais para a tomada de decisões adequadas e a conformidade com regulamentos.
+
+Portanto, é crucial que o sistema operacional implemente mecanismos robustos de verificação de integridade, como hashes ou algoritmos de verificação, para garantir que os dados armazenados nas memórias não voláteis permaneçam íntegros e confiáveis ao longo do tempo.
 
 ### Falha de Autenticação e Autorização
 
