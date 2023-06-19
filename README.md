@@ -48,7 +48,7 @@ Por exemplo, ao ser deletado um arquivo de grande porte do sistema, é possível
 
 Esse problema de gerenciamento de espaço pode impactar negativamente a eficiência e o desempenho do sistema operacional, além de reduzir a capacidade de armazenamento disponível para os usuários. Além disso, pode acelerar a utilização dos recursos, exigindo a substituição prematura do SSD por um de maior capacidade ou demandando manutenção frequente para otimizar o espaço disponível.
 
-Portanto, é fundamental que o sistema operacional implemente estratégias eficazes de gerenciamento de espaço, como a compactação de espaços fragmentados e a reciclagem inteligente de regiões desocupadas. Dessa forma, é possível maximizar a utilização do espaço disponível nas memórias não voláteis, evitando desperdícios desnecessários e promovendo um melhor aproveitamento dos recursos de armazenamento.
+Portanto, é fundamental que o sistema operacional implemente estratégias eficazes de gerenciamento de espaço, como a compactação de espaços fragmentados e a reciclagem inteligente de regiões desocupadas. Dessa forma, é possível maximizar a utilização do espaço disponível nas memórias não voláteis, evitando desperdícios desnecessários e promovendo um melhor aproveitamento dos recursos de armazenamento. <br>
 
 
 
@@ -56,7 +56,7 @@ Portanto, é fundamental que o sistema operacional implemente estratégias efica
 
 
 
-REFERÊNCIAS = <br>
+## REFERÊNCIAS = <br>
 Mittal, S.; Vetter, J.S. "A Survey of Software Techniques for Using Non-Volatile Memories for Storage and Main Memory Systems”, IEEE Transactions on Parallel and Distributed Systems, vol. 27.5, 2015, pp. 1537-1550. <br>
 Duan, Q.; Pan, L. Error Detection and Correction Techniques for Non-Volatile Memories: A Survey. IEEE Access, v. 7, p. 30957-30973, 2019.<br>
 Santos, F., Almeida, M., & Madeira, H. (2018). File Deletion Errors in Non-Volatile Memory. Proceedings of the 23rd ACM Symposium on Operating Systems Principles (SOSP '18), 139–154. <br>
