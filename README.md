@@ -5,7 +5,7 @@
 A memória não-volátil (NVM), também conhecida como memória persistente, é um tipo especial de memória capaz de reter informações mesmo quando ocorre perda de energia. Geralmente, a NVM é utilizada como armazenamento secundário de longo prazo. Exemplos comuns de NVM incluem memória de somente leitura, memória flash, dispositivos de armazenamento magnético (como discos rígidos e fitas magnéticas) e discos ópticos. A principal função da NVM é servir como meio de armazenamento, e estudos recentes sugerem que a NVM implementada em dispositivos semicondutores possa ser utilizada para sistemas de arquivos, inclusive permitindo que sistemas de arquivos sejam totalmente implementados em NVM. Entre os diversos tipos de memória mencionados, a memória flash se destaca por oferecer uma grande capacidade de armazenamento persistente e acesso mais rápido em comparação aos discos rígidos tradicionais. No entanto, essa memória ainda é mais lenta do que a memória semicondutora convencional (RAM).
 
 ## MODELOS DE VULNERABILIDADES
-
+<br>
 ## Erro de gravação ou leitura
 Em sistemas operacionais que envolvem o uso de memórias não voláteis, podem ocorrer erros de gravação ou leitura, resultando em problemas na persistência ou recuperação dos dados armazenados.
 
@@ -16,7 +16,7 @@ Por exemplo, suponha que um sistema operacional esteja gravando um arquivo impor
 Esses erros de gravação ou leitura podem levar a consequências indesejadas, como perda de dados, inconsistências nas informações armazenadas, mau funcionamento de aplicativos ou até mesmo falhas no sistema operacional como um todo.
 
 Para mitigar esses erros, é essencial que o sistema operacional implemente mecanismos de verificação e correção de erros, como algoritmos de detecção de erros e códigos de correção de erros. Além disso, a realização de backups regulares e a adoção de práticas adequadas de segurança de dados podem ajudar a minimizar os impactos negativos causados por esses erros de gravação ou leitura.
-### Falha de integridade de dados
+## Falha de integridade de dados
 
 No contexto do gerenciamento de memórias não voláteis, pode ocorrer uma falha de integridade dos dados, resultando em discrepâncias entre os dados armazenados e os dados esperados, comprometendo a confiabilidade e a precisão das informações.
 
@@ -27,7 +27,7 @@ Por exemplo, suponha que um sistema operacional esteja gravando registros de tra
 Essa falha de integridade dos dados pode ter implicações significativas, especialmente em setores sensíveis, como sistemas de gestão de banco de dados, registros médicos ou transações financeiras. A precisão e a confiabilidade dos dados são fundamentais para a tomada de decisões adequadas e a conformidade com regulamentações.
 
 Portanto, é crucial que o sistema operacional adote mecanismos robustos de verificação de integridade, como hashes ou algoritmos de verificação, para garantir que os dados armazenados nas memórias não voláteis permaneçam íntegros e confiáveis ao longo do tempo. <br>
-
+<br>
 ## Erro de exclusão de dados
 No contexto das memórias não voláteis, pode ocorrer um erro de exclusão de dados quando o sistema operacional falha em remover corretamente as informações armazenadas, resultando na persistência não intencional desses dados.
 
@@ -38,7 +38,7 @@ Por exemplo, consideremos um cenário em que um usuário solicita a exclusão de
 Esse erro de exclusão de dados pode ser problemático, especialmente em situações envolvendo privacidade ou conformidade com regulamentações de proteção de dados, como a Lei Geral de Proteção de Dados (LGPD) no Brasil ou o Regulamento Geral de Proteção de Dados (GDPR) na União Europeia. A persistência não intencional dos dados excluídos pode resultar em violações de privacidade, vazamento de informações confidenciais ou até mesmo implicações legais.
 
 Portanto, é essencial que o sistema operacional adote métodos eficazes e confiáveis de exclusão de dados, como a sobreposição segura de setores de armazenamento, a fim de garantir a remoção permanente dos dados das memórias não voláteis, evitando qualquer acesso ou recuperação não autorizados. <br>
-
+<br>
 ## Problemas de Gerenciamento de Espaço
 Em uma implementação de um sistema operacional em um dispositivo de armazenamento de estado sólido (SSD), pode ocorrer um problema de gerenciamento de espaço devido a uma alocação ineficiente de recursos.
 
