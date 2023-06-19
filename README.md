@@ -15,7 +15,8 @@ Por exemplo, suponha que um sistema operacional esteja gravando um arquivo impor
 
 Esses erros de gravação ou leitura podem levar a consequências indesejadas, como perda de dados, inconsistências nas informações armazenadas, mau funcionamento de aplicativos ou até mesmo falhas no sistema operacional como um todo.
 
-Para mitigar esses erros, é essencial que o sistema operacional implemente mecanismos de verificação e correção de erros, como algoritmos de detecção de erros e códigos de correção de erros. Além disso, a realização de backups regulares e a adoção de práticas adequadas de segurança de dados podem ajudar a minimizar os impactos negativos causados por esses erros de gravação ou leitura.
+Para mitigar esses erros, é essencial que o sistema operacional implemente mecanismos de verificação e correção de erros, como algoritmos de detecção de erros e códigos de correção de erros. Além disso, a realização de backups regulares e a adoção de práticas adequadas de segurança de dados podem ajudar a minimizar os impactos negativos causados por esses erros de gravação ou leitura. <br>
+![image](https://github.com/riquebatalha/Non-Volatile/assets/96505484/45395f0d-5315-4398-a1cf-0e54edb72cff)
 ## Falha de integridade de dados
 
 No contexto do gerenciamento de memórias não voláteis, pode ocorrer uma falha de integridade dos dados, resultando em discrepâncias entre os dados armazenados e os dados esperados, comprometendo a confiabilidade e a precisão das informações.
@@ -27,7 +28,6 @@ Por exemplo, suponha que um sistema operacional esteja gravando registros de tra
 Essa falha de integridade dos dados pode ter implicações significativas, especialmente em setores sensíveis, como sistemas de gestão de banco de dados, registros médicos ou transações financeiras. A precisão e a confiabilidade dos dados são fundamentais para a tomada de decisões adequadas e a conformidade com regulamentações.
 
 Portanto, é crucial que o sistema operacional adote mecanismos robustos de verificação de integridade, como hashes ou algoritmos de verificação, para garantir que os dados armazenados nas memórias não voláteis permaneçam íntegros e confiáveis ao longo do tempo. <br>
- ![image](https://github.com/riquebatalha/Non-Volatile/assets/96505484/45395f0d-5315-4398-a1cf-0e54edb72cff)
 
 <br>
 ## Erro de exclusão de dados
