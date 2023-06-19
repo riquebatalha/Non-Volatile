@@ -27,6 +27,8 @@ Por exemplo, suponha que um sistema operacional esteja gravando registros de tra
 Essa falha de integridade dos dados pode ter implicações significativas, especialmente em setores sensíveis, como sistemas de gestão de banco de dados, registros médicos ou transações financeiras. A precisão e a confiabilidade dos dados são fundamentais para a tomada de decisões adequadas e a conformidade com regulamentações.
 
 Portanto, é crucial que o sistema operacional adote mecanismos robustos de verificação de integridade, como hashes ou algoritmos de verificação, para garantir que os dados armazenados nas memórias não voláteis permaneçam íntegros e confiáveis ao longo do tempo. <br>
+ ![image](https://github.com/riquebatalha/Non-Volatile/assets/96505484/45395f0d-5315-4398-a1cf-0e54edb72cff)
+
 <br>
 ## Erro de exclusão de dados
 No contexto das memórias não voláteis, pode ocorrer um erro de exclusão de dados quando o sistema operacional falha em remover corretamente as informações armazenadas, resultando na persistência não intencional desses dados.
